@@ -1,0 +1,11 @@
+from PIL import Image
+
+# Load the PNG
+img = Image.open("images/ship.png")
+
+# Convert and save as BMP
+img.save("images/ship.bmp")
+
+
+
+#run "pip install pillow" in the terminal to install the pillow library 1st 
